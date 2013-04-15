@@ -169,15 +169,16 @@ p {
 }
 footer {
   width: 100%;
-  height: 170px;
+  height: 240px;
   background-color: #444;
   color: #f9f9f9;
   margin: 50px auto 0;
-  border-top: 1px dotted #ccc;
+  border-top: 2px dashed #ccc;
   padding-top: 5px;
   font-size: 16px;
 }
 footer p {
+  width: 100%;
   float: left;
   clear: both;
   font-size: 20px;
@@ -185,8 +186,6 @@ footer p {
   text-shadow: -1px -1px 0 #161616;
   padding: 3em 0 0 2em;
 }
-footer p.right {
-  float: right;
-  clear: both;
-  margin: 0 30px 0 0;
+footer span.right {
+  margin: 0 0 0 38%;
 }
